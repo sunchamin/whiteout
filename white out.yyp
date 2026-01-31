@@ -38,6 +38,7 @@
     {"id":{"name":"spr_playerl_walk","path":"sprites/spr_playerl_walk/spr_playerl_walk.yy",},},
     {"id":{"name":"spr_playerl","path":"sprites/spr_playerl/spr_playerl.yy",},},
     {"id":{"name":"spr_playerR_walk","path":"sprites/spr_playerR_walk/spr_playerR_walk.yy",},},
+    {"id":{"name":"spr_playerR","path":"sprites/spr_playerR/spr_playerR.yy",},},
     {"id":{"name":"spr_textframe","path":"sprites/spr_textframe/spr_textframe.yy",},},
   ],
   "resourceType":"GMProject",
