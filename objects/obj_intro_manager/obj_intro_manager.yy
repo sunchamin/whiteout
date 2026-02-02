@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_textframe",
+  "%Name":"obj_intro_manager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_textframe",
+  "name":"obj_intro_manager",
   "overriddenProperties":[],
   "parent":{
     "name":"white out",
@@ -31,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_textframe",
-    "path":"sprites/spr_textframe/spr_textframe.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
