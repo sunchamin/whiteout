@@ -16,15 +16,6 @@ var _key_up = keyboard_check(vk_up) || keyboard_check(ord("W"));
 var _hspd = (_key_right - _key_left) * spd;
 var _vspd = (_key_down - _key_up) * spd;
 
-// --- 1. 이동 입력 (기존 코드) ---
-var _key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
-var _key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
-var _key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
-var _key_up = keyboard_check(vk_up) || keyboard_check(ord("W"));
-
-var _hspd = (_key_right - _key_left) * spd;
-var _vspd = (_key_down - _key_up) * spd;
-
 // 1. 움직이고 있는가? (속도가 0이 아니면 움직이는 중)
 if (_hspd != 0 || _vspd != 0) {
     
