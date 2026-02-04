@@ -24,9 +24,12 @@
     {"id":{"name":"fnt_kor","path":"fonts/fnt_kor/fnt_kor.yy",},},
     {"id":{"name":"obj_bg_frame","path":"objects/obj_bg_frame/obj_bg_frame.yy",},},
     {"id":{"name":"obj_bg","path":"objects/obj_bg/obj_bg.yy",},},
+    {"id":{"name":"obj_hitbox","path":"objects/obj_hitbox/obj_hitbox.yy",},},
     {"id":{"name":"obj_playerf","path":"objects/obj_playerf/obj_playerf.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
+    {"id":{"name":"spr_hitbox","path":"objects/spr_hitbox/spr_hitbox.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
     {"id":{"name":"spr_bg_frame","path":"sprites/spr_bg_frame/spr_bg_frame.yy",},},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},},
@@ -48,6 +51,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
