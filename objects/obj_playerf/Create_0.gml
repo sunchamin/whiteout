@@ -1,3 +1,5 @@
+depth = -1000
+
 // --- [안전장치 추가] ---
 // 혹시 'is_cutscene' 변수가 아직 안 만들어졌다면, 일단 false(움직임 가능)로 만들어둔다.
 if (!variable_global_exists("is_cutscene")) {
