@@ -12,7 +12,7 @@ if (!variable_global_exists("choice")) {
 }
 
 // ... (아래에는 기존의 spd, face 설정 코드가 이어짐) ...
-spd = 4;
+spd = 6
 face = 3;
 // ...
 spd = 4; 

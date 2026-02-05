@@ -41,3 +41,11 @@ sub_title_text = "";
 
 // [추가할 코드]
 is_game_restart = false; // 기본값은 '재시작 안 함'으로 설정
+// [obj_textframe] -> [Create 이벤트]
+// [obj_textframe] -> [Create 이벤트] (맨 아래에 추가)
+
+
+// 1. 버튼 타입 기본값 설정 (이게 없으면 에러남)
+if (!variable_instance_exists(id, "button_type")) {
+    button_type = "normal"; // 기본은 오프닝용
+}
