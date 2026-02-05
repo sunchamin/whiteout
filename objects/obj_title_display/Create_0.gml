@@ -1,8 +1,12 @@
-// 텍스트 내용
-title_text = "제 1장";
-sub_title_text = "-생일-";
+title_text = "";
+sub_title_text = "";
 
-alpha = 0;              // 처음에는 투명하게 시작
-fade_speed = 0.02;      // 나타나고 사라지는 속도
-display_time = 60;     // 중앙에서 머무는 시간
-state = "fade_in";      // 현재 상태 (fade_in -> wait -> fade_out)
+alpha = 0;
+fade_speed = 0.02;
+display_time = 60;
+state = "fade_in";
+
+// [중요] 외부에서 설정할 변수들 기본값
+target_room = -1;       
+text_color = c_black;   // 기본은 검정, 하지만 외부에서 c_white로 바꿀 예정
+is_game_restart = false

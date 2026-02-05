@@ -33,6 +33,7 @@
     {"id":{"name":"obj_textframe","path":"objects/obj_textframe/obj_textframe.yy",},},
     {"id":{"name":"obj_title_display","path":"objects/obj_title_display/obj_title_display.yy",},},
     {"id":{"name":"spr_hitbox","path":"objects/spr_hitbox/spr_hitbox.yy",},},
+    {"id":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
@@ -55,6 +56,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],

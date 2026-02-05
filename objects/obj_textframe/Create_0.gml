@@ -23,3 +23,21 @@ type_speed = 0.5;
 current_width = 0;
 current_height = 0;
 pop_speed = 0.1;
+
+// 기존 변수들...
+char_index = 0;
+// ...
+
+// [추가] 클릭 입력을 잠시 무시하기 위한 타이머
+input_delay = 0;
+// 기존 변수들 아래에 추가
+end_action = 0; // 0: 버튼 생성(기본값), 1: 타이틀 생성 후 룸 이동
+
+// [obj_title_display] -> [Create 이벤트]
+
+// 기존 변수들 (title_text, sub_title_text 등...)
+title_text = "";
+sub_title_text = "";
+
+// [추가할 코드]
+is_game_restart = false; // 기본값은 '재시작 안 함'으로 설정
