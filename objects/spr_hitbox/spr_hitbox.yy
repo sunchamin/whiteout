@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fade_white",
-    "path":"sprites/spr_fade_white/spr_fade_white.yy",
+    "name":"spr_hitbox_image",
+    "path":"sprites/spr_hitbox_image/spr_hitbox_image.yy",
   },
   "spriteMaskId":{
     "name":"spr_textframe",

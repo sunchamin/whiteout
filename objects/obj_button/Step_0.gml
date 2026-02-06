@@ -15,19 +15,20 @@ if (position_meeting(gui_mouse_x, gui_mouse_y, id)) {
         // -----------------------------------------------------
         // [버튼 0: 일어난다] -> 룸 1로 이동 (게임 시작)
         // -----------------------------------------------------
+       // [버튼 0: 일어난다]
         if (button_id == 0) {
             
-            // 인트로 정리
+            // 1. 인트로 정리
             if (instance_exists(obj_textframe)) instance_destroy(obj_textframe);
             if (instance_exists(obj_arrow)) instance_destroy(obj_arrow);
             if (instance_exists(obj_intro_manager)) instance_destroy(obj_intro_manager); 
             
-            // 버튼 제거
+            // 2. 버튼 제거
             instance_destroy(obj_button); 
             
-            // 룸 1로 이동
-            room_goto(Room1); 
-        } 
+            // 3. 하얀 점멸 효과 생성 (이 친구가 알아서 룸 이동까지 시켜줍니다!)
+            instance_create_depth(0, 0, -9999, obj_fade_white);
+        }
         
         // -----------------------------------------------------
         // [버튼 1: 계속 잔다] -> End 0 (게임 재시작)
